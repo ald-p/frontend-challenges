@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;600;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +14,7 @@
 
 body {
   background-color: var(--light-gray);
+  font-family: 'Outfit', sans-serif;
 }
 
 .container {
@@ -30,7 +33,7 @@ body {
   text-align: center;
   padding: 1rem;
   width: 275px;
-  height: 450px;
+  height: 430px;
   border-radius: 12px;
 }
 
@@ -40,10 +43,17 @@ body {
 }
 
 .text {
-  margin-top: 2rem;
-  padding: 0 2rem;
+  margin-top: 1.5rem;
+  padding: 0 1rem;
 }
 
 .text h3 {
   padding-bottom: 1rem;
+  font-size: 1.2rem;
+  color: var(--dark-blue);
+}
+
+.text p {
+  font-size: 0.9rem;
+  color: var(--grayish-blue);
 }
